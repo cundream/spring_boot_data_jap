@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title page-title>angularjs</title>
+</head>
+<body>
+<link rel="stylesheet" href="app/css/base.css">
+<link rel="stylesheet" href="app/daterangepicker/daterangepicker.css">
+<script type="text/javascript" src="app/js/base.js"></script>
+<script type="text/javascript" src="app/js/app.js"></script>
+<script type="text/javascript" src="app/js/jquery.2.0.3.min.js"></script>
+<script type="text/javascript" src="app/vendor/echarts/echarts.min.3.2.3.js"></script>
+<script type="text/javascript" src="app/vendor/echarts/china.js"></script>
+<script type="text/javascript" src="app/vendor/echarts/world.js"></script>
+
+<script type="text/javascript" src="app/daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="app/daterangepicker/daterangepicker.js"></script>
+
+<div ui-view></div>
+
+
+<script type="text/javascript">
+    window.onload=function(){
+        //document.write("<script src=\"app/js/controller/accountController.js\"><\/script>");
+      /*  var oBody = document.getElementsByTagName('body').item(0);
+        var oScript1= document.createElement("script");
+        oScript1.type = "text/javascript";
+        oScript1.src ="app/js/controller/aboutController.js";
+        oBody.appendChild( oScript1);
+
+        var oScript2= document.createElement("script");
+        oScript2.type = "text/javascript";
+        oScript2.src ="app/js/controller/userController.js";
+        oBody.appendChild( oScript2);*/
+
+
+    }
+    $(document).ready(function() {
+        $('input[name="daterange"]').daterangepicker();
+    });
+
+</script>
+</body><!--
+<script type="text/javascript" src="app/js/angular.min.js"></script>-->
+<script type="text/javascript" src="app/js/controller/userController.js"></script>
+<script type="text/javascript" src="app/js/controller/aboutController.js"></script>
+<script type="text/javascript" src="app/js/controller/interceptAccountController.js"></script>
+<script type="text/javascript" src="app/js/controller/dataMapAccountController.js"></script>
+
+
+<!--
+<script type="text/javascript" src="app/js/config.js"></script>
+<script type="text/javascript" src="app/js/controller.js"></script>
+<script type="text/javascript" src="app/js/directive.js"></script>
+<script type="text/javascript" src="app/js/api.service.js"></script>-->
+</html>

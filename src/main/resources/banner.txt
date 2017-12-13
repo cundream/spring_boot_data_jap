@@ -1,0 +1,9 @@
+${AnsiColor.GREEN}                   ) ${AnsiColor.RED} (               )            
+${AnsiColor.GREEN}    )   )   (   ( /( ${AnsiColor.RED} )\ )   )     ( /(   (        
+${AnsiColor.GREEN} ( /(( /(   )\  )\())${AnsiColor.RED}(()/(( /( (   )\())  )\  (    
+${AnsiColor.GREEN} )(_))\())(((_)((_)\ ${AnsiColor.RED} /(_))\()))\ ((_)\ (((_) )\   
+${AnsiColor.GREEN}((_)((_)\ )\___ _((_)${AnsiColor.RED}(_))((_)\((_) _((_))\___((_)  
+${AnsiColor.GREEN}|_  )/ (_|(/ __| \| |${AnsiColor.RED}/ __| |(_) __| \| ((/ __| __| 
+${AnsiColor.GREEN} / / | |  | (__| .` |${AnsiColor.RED}\__ \ ' \| _|| .` || (__| _|  
+${AnsiColor.GREEN}/___||_|   \___|_|\_|${AnsiColor.RED}|___/_||_|___|_|\_| \___|___|
+${AnsiColor.BRIGHT_BLUE}:: ${application.name}  :: ${application.formatted-version} :: 一村网络科技有限责任公司 ::${AnsiColor.DEFAULT}

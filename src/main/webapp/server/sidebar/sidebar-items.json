@@ -1,0 +1,139 @@
+[
+  {
+    "text": "实时监控",
+    "type": "heading",
+    "translate": "sidebar.heading.REAL-MONITOR"
+  },
+  {
+	"text": "管理业务，配置实时分析哪些业务、子系统、机器等",
+	"sref": "app.business",
+    "icon": "icon-shuffle",
+	"translate": "sidebar.nav.BUSINESS"
+  },
+  {
+    "text": "互联网业务运行情况的实时分析和监控",
+    "sref": "app.nginx",
+    "icon": "icon-eye",
+    "translate": "sidebar.nav.nginx",
+    "alert": {"text":"+", "class": "label-success"}
+  },
+  {
+    "text": "账号平台重点远程访问的实时分析和监控",
+    "sref": "app.loginLog",
+    "icon": "icon-esc",
+    "translate": "sidebar.nav.loginLog",
+    "alert": {"text":"+", "class": "label-success"}
+  },
+  {
+    "text": "异常登录IP",
+    "sref": "app.performance",
+    "icon": "icon-cross",
+    "translate": "sidebar.nav.abnormalIP"
+  },
+  {
+    "text": "异常账号",
+    "sref": "app.faliureRate",
+    "icon": "icon-target",
+    "translate": "sidebar.nav.abnormalAccount"
+  },
+  {
+    "text": "拦截日志数据",
+    "sref": "app.loginCaptcha",
+    "icon": "icon-target",
+    "translate": "sidebar.nav.loginCaptcha"
+  },
+  {
+    "text": "拦截日志数据",
+    "sref": "app.captchaStatistics",
+    "icon": "icon-command",
+    "translate": "sidebar.nav.loginCaptchaStatistics"
+  },
+  {
+    "text": "白名单管理",
+    "sref": "app.whiteList",
+    "icon": "icon-inbox",
+    "translate": "sidebar.nav.whiteList"
+  },
+  {
+    "text": "黑名单管理",
+    "sref": "app.blackIp",
+    "icon": "icon-inbox",
+    "translate": "sidebar.nav.blackIp"
+  },
+  {
+    "text": "异常数据分析",
+    "sref": "app.abnormalAnalize",
+    "icon": "icon-inbox",
+    "translate": "sidebar.nav.abnormal.analize"
+  },
+  {
+    "type": "separator"
+  },
+  {
+    "text": "脚本及其任务",
+    "type": "heading",
+    "translate": "sidebar.heading.scriptTask"
+  },
+  {
+	"text": "脚本管理",
+	"sref": "app.script",
+	"icon": "icon-share",
+	"translate": "sidebar.nav.script"
+  },
+  {
+    "text": "任务管理",
+    "sref": "app.pushTask",
+    "icon": "icon-command",
+    "translate": "sidebar.nav.anaTask"
+  },
+  {
+    "text": "正在执行、已结束的任务的执行情况",
+    "sref": "app.taskHistory",
+    "icon": "icon-content-left",
+    "translate": "sidebar.nav.taskHistory"
+  },
+  {
+    "text": "管理脚本、任务的分类",
+    "sref": "app.group",
+    "icon": "icon-stack",
+    "translate": "sidebar.nav.group"
+  },
+  {
+    "text": "管理执行脚本的服务器",
+    "sref": "app.server",
+    "icon": "icon-server",
+    "translate": "sidebar.nav.server"
+  },
+  {
+    "text": "登录日志提取",
+    "sref": "app.serviceDataExtraction",
+    "icon": "icon-inbox",
+    "translate": "sidebar.nav.serviceDataExtraction"
+  },
+  {
+    "type": "separator"
+  },
+  {
+    "text": "系统配置",
+    "type": "heading",
+    "translate": "sidebar.heading.SYSTEM"
+  },
+  {
+    "text": "配置告警阀值等数据项",
+    "sref": "app.setting",
+    "icon": "icon-star",
+    "translate": "sidebar.nav.SETTING"
+  },
+  {
+    "text": "管理系统用户",
+    "sref": "app.user",
+    "icon": "icon-head",
+    "translate": "sidebar.nav.USER"
+  },
+  {
+    "text": "系统监控",
+    "sref": "app.monitor",
+    "icon": "icon-monitor",
+    "translate": "sidebar.nav.MONITER"
+  }
+]

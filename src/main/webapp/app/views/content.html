@@ -1,0 +1,85 @@
+<ul>
+    <li>
+        <a ui-sref="home.index">index</a>
+        <a ui-sref="home.list({'id':'111','name':'fsaf'})">list</a>
+        <a ui-sref="home.product">product</a>
+        <a ui-sref="home.about">about</a>
+    </li>
+</ul>
+
+
+<div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Demo</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span2">
+
+          <!-- 使用json文件初始化下拉框
+
+           <ul class="nav">
+                <hr class="hidden-collapsed" />
+                &lt;!&ndash; Iterates over all sidebar items&ndash;&gt;
+                <li  data-ng-repeat="item in menuItems">
+                    <span  translate="{{item.translate}}" class="text-muted">{{item.text}}</span>
+                    <hr/>
+                   &lt;!&ndash; <a   title="{{item.text}}"><em data-ng-hide="inSubmenu"></em>
+                   <em data-ng-if="item.subnav" data-ng-class="app.layout.isRTL?'fa-angle-left':'fa-angle-right'" class="sidebar-item-caret fa pull-right"></em>
+                        <div  class="label pull-right">{{item.alert.text}}</div>
+                        <span translate="{{item.translate}}">{{item.text}}</span>
+                    </a>
+                    <ul data-ng-switch-default=""  class="nav sidebar-subnav">
+                        <li class="sidebar-subnav-header">
+                            <a>
+                                <em data-ng-class="(app.layout.isRTL)? 'fa-angle-right' : 'fa-angle-left'" class="sidebar-item-icon fa"></em>
+                                {{ item.translate | translate }}
+                            </a>
+                        </li></ul>&ndash;&gt;
+
+                </li>
+            </ul>-->
+
+
+
+            <ul class="nav nav-list well " >
+                <li class="navbar-form">
+                    <span class="glyphicon glyphicon-user "></span>列表标题
+                </li>
+                <li class="active"><a ui-sref="home.index" href="/app/blackIp">index</a></li>
+                <li> <a ui-sref="home.list({'id':'111','name':'fsaf'})">list</a></li>
+                <li><a href="#">应用s</a></li>
+                <li class="nav-header">功能列表</li>
+                <li> <a ui-sref="home.product" >product</a></li>
+                <li><a ui-sref="home.product" >设置</a></li>
+                <li><a ui-sref="home.dataExtraction" >地图数据</a></li>
+                <li><a ui-sref="home.interceptAccount" >e拦击数据分析</a></li>
+                <li><a ui-sref="home.dataMapAccount" >e地图数据</a></li>
+                <li class="divider">dddddd</li>
+                <li> <a ui-sref="home.about">about</a></li>
+            </ul>
+        </div>
+        <div class="span10"  ui-view="" >
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    @版权信息
+</footer>
